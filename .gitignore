@@ -1,0 +1,16 @@
+# 忽略所有文件
+*
+
+# 不忽略.gitignore文件
+!.gitignore
+
+# 只保留需要的文件
+!prediction/deepfocusv4-0509.py
+!prediction/step2/predict_offtarget.py
+!prediction/step2/9bit_Dataset_prediction.npz
+
+# 保留models文件夹及其内容
+!prediction/step2/models/
+!prediction/step2/models/*
+
+# 忽略所有其他文件和文件夹
